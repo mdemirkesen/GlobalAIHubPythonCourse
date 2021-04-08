@@ -20,6 +20,13 @@ for i in range(5):
     karne[isim]=bilgiler
     bilgiler={}
 
+# Öğrenci bilgilerinin yazdırılması
+for i in karne:
+    print(i,end=" ")
+    for j in karne[i]:
+        print(j,karne[i][j],end=" ")
+    print()
+
 print(notlar) # Notların işlem görmeden  giriş sırasına göre yazdırılması.
 
 yuksekNot = max(notlar)
@@ -35,11 +42,5 @@ tempMin = notlar[lowest]
 notlar.pop(lowest)
 notlar.append(tempMin)
 
-# Öğrenci bilgilerinin yazdırılması
-for i in karne:
-    print(i,end=" ")
-    for j in karne[i]:
-        print(j,karne[i][j],end=" ")
-    print()
 
 print(notlar) # Notların işlem gördükten sonra yazdırılması
