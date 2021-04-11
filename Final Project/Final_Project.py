@@ -24,7 +24,7 @@ for soru in yarisma:
         print("Doğru")
         puan+=10
     else:
-        print("Yanlış")
+        print("Yanlış, doğru cevap:",yarisma[soru)
 
 print("{} soruya doğru cevap verdiniz. Toplam puanınız: {}".format(int(puan/10),puan))
 if puan>=60:
