@@ -1,5 +1,5 @@
 #Girilen kullanıcı adı ve parola bilgisini sistemte kayıtlı olan kullanıcı adı ve parola ile karşılaştırıyor.
-#Sağlanan koşula göre kullanıcı adı / parola / kullanıcı ado - parola hatalı çıktısını üretiyor. 
+#Sağlanan koşula göre kullanıcı adı / parola / kullanıcı adı - parola hatalı çıktısını üretiyor. 
 #Bunların dışındaki durumda kullanıcı adı ve parola doğru olacağından giriş başarılı çıktısı üretiliyor..
 
 #Question 1
